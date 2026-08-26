@@ -1,0 +1,2 @@
+# Paradigmas26UFMA
+ATIVIDADE1
