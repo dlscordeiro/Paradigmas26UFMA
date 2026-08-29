@@ -1,54 +1,69 @@
 # Paradigmas26UFMA
-ATIVIDADE1
-DAVID LUCAS SÁ CORDEIRO 
-programa de tomada de desisões 
 
-tem que solicitar:
-nome do cliente
-idade
-saldo disponivel
-preco do produto +18
-quantidade solicitada 
+## ATIVIDADE 1
 
-tem que atender :
-1- cliente idade e saldo 
-2- cliente idade e não tem saldo 
-3- cliente não tem idade nem saldo 
-4- cliente não tem idade ou saldo 
+**Aluno:** DAVID LUCAS SÁ CORDEIRO
 
+### Programa de Tomada de Decisões
 
+O programa tem que solicitar:
 
-inicio do programa 
+* Nome do cliente
+* Idade
+* Saldo disponível
+* Preço do produto +18
+* Quantidade solicitada
 
+### Tem que atender:
 
-nome
-Idade 
-saldo disponivel 
-casdastrar produto 
-preço do produto 
-quantidade do produto 
+1. Cliente idade e saldo
+2. Cliente idade e não tem saldo
+3. Cliente não tem idade nem saldo
+4. Cliente não tem idade ou saldo
 
-processamento 
-leia nome 
-leia produto cadastrado
-leia preco do produto 
-leia quantidade do produto 
-leia idade 
-leia saldo 
+---
 
-calcule preco do produto x quantidade do produto 
-verifique se o cliente possui uma idade igual ou maior á 18 anos 
-verifique se o saldo disponivel do cliente e suficiente para compra do produto 
+# Início do Programa
 
-decisão 
+### Cadastro
 
-se cliente possuir 18+ e possui saldo suficiente para compra - aprovar compra 
-se o cliente possuir não 18+ ou não possui saldo suficiente para compra - negar compra
-se o cliente possuir não 18+ e não possui saldo suficiente para compra - negar compra
- 
+* Nome
+* Idade
+* Saldo disponível
+* Cadastrar produto
+* Preço do produto
+* Quantidade do produto
 
-saida 
-leia nome do cliente 
-leia produtos comprados 
-leia valor da compra 
-leia saldo disponivel 
+---
+
+# Processamento
+
+* Leia nome
+* Leia produto cadastrado
+* Leia preço do produto
+* Leia quantidade do produto
+* Leia idade
+* Leia saldo
+
+### Cálculos e verificações
+
+* Calcule preço do produto × quantidade do produto
+* Verifique se o cliente possui uma idade igual ou maior a 18 anos
+* Verifique se o saldo disponível do cliente é suficiente para compra do produto
+
+---
+
+# Decisão
+
+* Se o cliente possuir **18+** e possuir saldo suficiente para compra → **aprovar compra**
+* Se o cliente possuir **não 18+** ou não possuir saldo suficiente para compra → **negar compra**
+* Se o cliente possuir **não 18+** e não possuir saldo suficiente para compra → **negar compra**
+
+---
+
+# Saída
+
+* Leia nome do cliente
+* Leia produtos comprados
+* Leia valor da compra
+* Leia saldo disponível
