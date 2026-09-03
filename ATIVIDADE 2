@@ -1,0 +1,74 @@
+ponto de venda ---> caixa eletronico 
+
+Menu de opções:
+1 - consultar saldo 
+2 - depositar
+3 - sacar 
+4 - encerrar (o encerrar tem que ser true e false e ser finalizado em bolean(true ou false))
+
+
+inicio do programa :
+
+
+ler a opção consultar saldo 
+ler a opção depositar 
+ler a opção sacar 
+ler a opção encerrar processamento 
+
+
+processamento:
+
+cadastre o nome do cliente 
+busque conta do cliente pelo nome 
+veirifique se a conta do cliente existe
+Se a conta não existir, informar o cliente e finalizar ou solicitar outro nome.
+Se a conta existir, mostrar o menu de opções.
+mostre o menu de opções
+
+para consultar conta:
+
+Buscar a conta do cliente.
+Consultar o saldo atual da conta.
+Não alterar o saldo.
+mostre o saldo disponivel do cliente 
+
+para despositar:
+
+Verificar se o valor informado é válido.
+O valor deve ser maior que zero.
+Se o valor for inválido, não realizar o depósito.
+Se o valor for válido:
+Buscar o saldo atual.
+Somar o valor do depósito ao saldo.
+Atualizar o saldo da conta.
+Informar que o depósito foi realizado.
+Mostrar o novo saldo.
+
+para sacar :
+
+Verificar se o valor informado é maior que zero.
+Buscar o saldo atual.
+Verificar se existe saldo suficiente.
+Se o valor for inválido, não realizar o saque.
+Se o saldo for insuficiente, não realizar o saque.
+Se houver saldo suficiente:
+Subtrair o valor do saque do saldo.
+Atualizar o saldo da conta.
+Se o saque for realizado:
+Informar que o saque foi realizado.
+Mostrar o novo saldo.
+Se não for realizado:
+Informar o motivo, como "saldo insuficiente" ou "valor inválido".
+
+para encerrar:
+
+finalise o menu do caixa 
+
+
+final do prorgama:
+
+crie um comprovante 
+ler nome do cliente
+ler novo saldo 
+ler saques realizados 
+ler deposito realizados 
