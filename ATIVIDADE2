@@ -18,16 +18,7 @@ ler a opção encerrar processamento
 
 processamento:
 
-Para cadastrar conta:
-Solicitar o nome do cliente.
-Ler o nome informado.
-Verificar se o nome foi informado corretamente.
-Criar uma conta para o cliente.
-Associar o nome do cliente à conta.
-Definir o saldo inicial da conta como zero.
-Informar que a conta foi cadastrada com sucesso.
-Salvar os dados da conta para que possam ser utilizados posteriormente.
-
+cadastre o nome do cliente 
 busque conta do cliente pelo nome 
 veirifique se a conta do cliente existe
 Se a conta não existir, informar o cliente e finalizar ou solicitar outro nome.
@@ -80,4 +71,4 @@ crie um comprovante
 ler nome do cliente
 ler novo saldo 
 ler saques realizados 
-ler deposito realizados 
+ler deposito realizados  COLOQUE SO O CASDASTRAR CONTA 
