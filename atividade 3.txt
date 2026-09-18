@@ -1,0 +1,89 @@
+implementação de funções
+
+
+mestrado ---> doutorado
+
+D -------> C 9.5 - 10.0 --> A
+             8.0 - 9.5 ---> B
+             7.0 - 8.0 ---> C
+             6.0 - 7.0 ---> D
+           menor que 6 ---> E
+
+
+programa funcional
+
+entrada
+usuario
+{quantidades notas
+notas} --> função
+calcular media (função)
+gerar classificação + vetor
+gerar aproveitamento para o doutorado (função)
+
+saidas
+disciplina classificação
+aproveitamento para o doutorado
+
+p. alg B aproveitar
+pede D não aproveitar
+antitico A aproveitar
+
+
+pseudo-código
+
+
+
+
+ENTRADAS
+
+Leia o nome do usuário
+Leia a quantidade de disciplinas
+Leia as notas de cada disciplina
+
+CALCULE A MÉDIA de cada disciplina
+
+PARA cada disciplina
+    Gere a classificação da nota
+
+    SE média estiver entre 9,5 e 10,0
+        classificação = A
+
+    SENÃO SE média estiver entre 8,0 e 9,5
+        classificação = B
+
+    SENÃO SE média estiver entre 7,0 e 8,0
+        classificação = C
+
+    SENÃO SE média estiver entre 6,0 e 7,0
+        classificação = D
+
+    SENÃO
+        classificação = E
+
+    Armazene a classificação no vetor
+FIM PARA
+
+Gere o aproveitamento para o doutorado
+
+PARA cada disciplina
+    SE classificação = A
+        aproveitamento = APROVEITAR
+
+    SENÃO SE classificação = B
+        aproveitamento = APROVEITAR
+
+    SENÃO SE classificação = D
+        aproveitamento = NÃO APROVEITAR
+
+    SENÃO
+        aproveitamento = verificar regra correspondente
+FIM PARA
+
+SAÍDAS
+
+Mostre o nome do usuário
+Mostre a disciplina
+Mostre a classificação de cada disciplina
+Mostre o aproveitamento para o doutorado
+
+FIM
